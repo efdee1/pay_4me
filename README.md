@@ -1,16 +1,21 @@
 # pay_4_me
 
-A new Flutter project.
+This is a 3 page UI interview assignment from Pay4Me.
 
-## Getting Started
+## The first page
 
-This project is a starting point for a Flutter application.
+![download (2)](https://user-images.githubusercontent.com/63516254/168399835-85b4e9a1-075a-4e8b-af8d-f10805c148b0.png)
 
-A few resources to get you started if this is your first Flutter project:
+## The second page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![download (1)](https://user-images.githubusercontent.com/63516254/168399793-91e827d4-2d67-4bdb-85fe-aaef9866a347.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## The third page
+
+![download (3)](https://user-images.githubusercontent.com/63516254/168399752-99c1cd3b-5745-4812-b626-cdb81d84227b.png)
+
+## A short clip of the assigment made with flutter
+
+https://user-images.githubusercontent.com/63516254/168400017-836a09bf-00c4-4377-851a-2567dbf68853.mp4
+
+
