@@ -12,7 +12,6 @@ class SearchPanel extends StatelessWidget {
   @override
       Widget build(BuildContext context) {
         return ListView(
-
           controller: controller,
           children: [
             Padding(
@@ -35,20 +34,20 @@ class SearchPanel extends StatelessWidget {
             Container(
             color: white,
             child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+             crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
              const Divider(thickness: 1,),
              const SizedBox(height: 15,),
-            Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 32),
-              child: Column(
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 32),
+               child: Column(
                 children: [
-               Row(
+                 Row(
                    children: [
-                 SizedBox(
-                  width: 127,
-                  height: 38,
-                   child: ElevatedButton(
+                   SizedBox(
+                     width: 127,
+                     height: 38,
+                     child: ElevatedButton(
                           onPressed: () {},
                        style: ElevatedButton.styleFrom(
                         primary: primaryColor,
@@ -56,14 +55,14 @@ class SearchPanel extends StatelessWidget {
                         borderRadius: BorderRadius.circular(25), // <-- Radius
                          ),
                         ),
-                     child: Row(
+                       child: Row(
                         children: [
-                     const Text('Traditional',style: TextStyle(
-                      fontSize: 12,
-                      color: textColor
-                      ),),
-                      const Spacer(),
-                      Image.asset(
+                          const Text('Traditional',style: TextStyle(
+                         fontSize: 12,
+                           color: textColor
+                        ),),
+                          const Spacer(),
+                          Image.asset(
                         "assets/cancel.png", height: height(14), width: 14,),
                         ],
                        ),
@@ -130,10 +129,10 @@ class SearchPanel extends StatelessWidget {
                                   height: 38,
                                   child: ElevatedButton(
                                     onPressed: () {},
-                              style: ElevatedButton.styleFrom(
-                              primary: primaryColor,
-                              shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(25), // <-- Radius
+                                        style: ElevatedButton.styleFrom(
+                                        primary: primaryColor,
+                                        shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(25), // <-- Radius
                                     ),
                                     ),
                                     child: Row(
@@ -143,15 +142,14 @@ class SearchPanel extends StatelessWidget {
                                     color: textColor
                                     ),),
                                      const Spacer(),
-                                    Image.asset(
+                                      Image.asset(
                                     "assets/cancel.png", height: height(14), width: 14,),
                                     ],
                                    ),
-                                    ),
-                                    ),
-
-        ],
-        )
+                                  ),
+                                ),
+                    ],
+                )
         ],
         ),
         ),

@@ -33,9 +33,6 @@ class _SearchPageState extends State< SearchPage> {
               ),
                 fit: BoxFit.fitHeight, ),
             ),
-
-
-
             Positioned(
               top: 65, left: 20,
               child: Container(
@@ -65,9 +62,6 @@ class _SearchPageState extends State< SearchPage> {
             ),
           ]
       ),
-
     );
-
-
   }
 }

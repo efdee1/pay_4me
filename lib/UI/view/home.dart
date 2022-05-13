@@ -8,8 +8,6 @@ import '../foods.dart';
 class Home extends StatefulWidget {
   static String routeName = "/home";
   const Home({Key? key, }) : super(key: key);
-  // final ValueNotifier<double> ?notifier;
-  // this.notifier
 
   @override
   State<Home> createState() => _HomeState();
@@ -17,7 +15,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
   late final AnimationController _controller = AnimationController(
-    duration: const Duration(seconds: 2),
+    duration: const Duration(seconds: 5),
     vsync: this,
   )..repeat(reverse: true);
   late final Animation<Offset> offsetAnimation = Tween<Offset>(
@@ -83,12 +81,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
               ),
               borderRadius: const BorderRadius.vertical(top:Radius.circular(40) ),
             ),
-
         ]
         ),
-
     );
-
-
   }
 }

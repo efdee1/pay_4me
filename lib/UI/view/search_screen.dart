@@ -64,7 +64,6 @@ class Tags extends StatelessWidget {
             Text(tagName),
             const SizedBox(width: 16,),
             Image.asset(cancelTagPicture,height: 12,width: 12,),
-
           ],
         ),
       ),

@@ -12,4 +12,3 @@ const kSecondaryColor = Color(0xFF2F2F2F);
 const Color inputFillColor = Color(0xFF1D1D1D00);
 const Color white = Color(0xFFFFFFFF);
 
-const kAnimationDuration = Duration(milliseconds: 200);
