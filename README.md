@@ -1,6 +1,6 @@
 # pay_4_me
 
-This is a 3 page UI interview assignment from Pay4Me.
+This is a 3 page UI.
 
 ## The first page
 
@@ -14,7 +14,7 @@ This is a 3 page UI interview assignment from Pay4Me.
 
 ![download (3)](https://user-images.githubusercontent.com/63516254/168399752-99c1cd3b-5745-4812-b626-cdb81d84227b.png)
 
-## A short clip of the assigment made with flutter
+## A short clip  made with flutter
 
 https://user-images.githubusercontent.com/63516254/168400017-836a09bf-00c4-4377-851a-2567dbf68853.mp4
 
